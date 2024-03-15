@@ -3,7 +3,9 @@ import Intro from "./Intro";
 function App() {
     return (
         <>
-            <Intro />
+            <div className="container">
+                <Intro />
+            </div>
         </>
     );
 }
