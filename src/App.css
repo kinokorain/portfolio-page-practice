@@ -1,3 +1,17 @@
+/* utility classes  */
+.accent-color {
+    color: #757575;
+}
+
+/* general  */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* nav section  */
+
 .navbar {
     margin-top: 0;
     display: flex;
@@ -26,24 +40,60 @@
     transform: scaleX(1);
 }
 
+/* intro section  */
+
 .intro {
     margin-top: 0;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .intro-para {
     margin-top: 2em;
     font-size: 3rem;
-    width: 60%;
+    max-width: 60%;
     letter-spacing: 2.56px;
     line-height: 1.2;
 }
 
 .intro-para span {
     display: block;
-    color: #757575;
 }
-.container {
-    width: 85%;
-    margin: 0 auto;
+
+/* Featured Work section  */
+
+.cards-container {
+    display: column;
+    gap: 1em;
+    columns: 2;
+}
+
+.cards-container > * {
+    break-inside: avoid;
+}
+
+.card {
+    background-color: #f7f7f7;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: fit-content;
+    margin-bottom: 1em;
+}
+
+.card-text-container {
+    padding: 1em;
+    color: #757575;
+    margin-bottom: 0;
+    padding-bottom: 0.3em;
+}
+
+.card-text-container h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    line-height: 1;
+    padding-bottom: 0;
+}
+
+.card-text-container p {
+    margin-top: 0em;
 }

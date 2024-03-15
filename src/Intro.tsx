@@ -2,17 +2,17 @@ import Navigation from "./Navigation";
 
 export default function Intro() {
     return (
-        <div className="intro">
+        <section className="intro">
             <Navigation />
             <div className="intro-para">
                 <p>
                     I’m Jonas — a senior product designer
-                    <span>
+                    <span className="accent-color">
                         {" "}
                         that cares a lot about positive impact projects
                     </span>
                 </p>
             </div>
-        </div>
+        </section>
     );
 }
