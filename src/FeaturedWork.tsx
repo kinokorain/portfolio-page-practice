@@ -14,7 +14,6 @@ export default function FeaturedWork() {
                             name={project.name}
                             nature={project.nature}
                             imageURL={project.imageURL}
-                            imageWidth={project.imageWidth}
                         />
                     );
                 })}
