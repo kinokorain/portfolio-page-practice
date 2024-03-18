@@ -4,12 +4,23 @@
 }
 
 /* general  */
-
+* {
+    padding: 0%;
+    margin: 0%;
+}
 .container {
-    width: 85%;
-    margin: 0 auto;
+    /* width: 85%; */
+    display: grid;
+    grid-template-columns: [full-width-start] 7vw [content-start] 1fr [content-end] 7vw [full-width-end];
 }
 
+.container > * {
+    grid-column: content;
+}
+
+.container > .full-width {
+    grid-column: full-width;
+}
 /* nav section  */
 
 .navbar {
@@ -48,7 +59,7 @@
 }
 
 .intro-para {
-    margin-top: 2em;
+    margin-top: 2.5em;
     font-size: 3rem;
     max-width: 60%;
     letter-spacing: 2.56px;
@@ -77,13 +88,17 @@
     border-bottom-right-radius: 16px;
     height: fit-content;
     margin-bottom: 1em;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 .card-text-container {
     padding: 1em;
     color: #757575;
     margin-bottom: 0;
-    padding-bottom: 0.3em;
 }
 
 .card-text-container h3 {
@@ -96,4 +111,28 @@
 
 .card-text-container p {
     margin-top: 0em;
+}
+
+/* About me section  */
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7em;
+    font-size: 1.5rem;
+}
+.about-me-paras {
+    max-width: 40%;
+}
+
+.about-me-container h2 {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.image {
+    margin-top: 10em;
+    height: 74%;
+    overflow-y: hidden;
+    padding-inline: 0;
 }

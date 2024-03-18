@@ -6,6 +6,7 @@ export default function FeaturedWork() {
             <p>
                 Featured work <span className="accent-color">· 2018–2022</span>
             </p>
+            <br />
             <div className="cards-container">
                 {projects.map((project) => {
                     return (
