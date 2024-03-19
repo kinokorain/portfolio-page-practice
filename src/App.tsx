@@ -3,6 +3,9 @@ import Intro from "./Intro";
 import FeaturedWork from "./FeaturedWork";
 import AboutMe from "./AboutMe";
 import Experience from "./Experience";
+import Services from "./Services";
+import Mail from "./Mail";
+import Footer from "./Footer";
 function App() {
     return (
         <>
@@ -17,6 +20,9 @@ function App() {
                     />
                 </div>
                 <Experience />
+                <Services />
+                <Mail />
+                <Footer />
             </div>
         </>
     );
