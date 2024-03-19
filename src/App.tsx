@@ -2,6 +2,7 @@ import "./App.css";
 import Intro from "./Intro";
 import FeaturedWork from "./FeaturedWork";
 import AboutMe from "./AboutMe";
+import Experience from "./Experience";
 function App() {
     return (
         <>
@@ -15,6 +16,7 @@ function App() {
                         alt=""
                     />
                 </div>
+                <Experience />
             </div>
         </>
     );

@@ -136,3 +136,23 @@
     overflow-y: hidden;
     padding-inline: 0;
 }
+
+/* Experience  */
+
+.experience-section {
+    display: flex;
+}
+
+.experience-section > h2 {
+    width: 50%;
+}
+
+.experience-section > div {
+    width: 50%;
+}
+
+.experience-text {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: #f0f0f0 solid 1px;
+}
