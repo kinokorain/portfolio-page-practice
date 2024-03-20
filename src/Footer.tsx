@@ -3,10 +3,10 @@ export default function Footer() {
         <footer>
             <div className="footer-top">
                 <div className="left">
-                    <a href="">Home</a>
-                    <a href="">Work</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
+                    <a href="#header">Home</a>
+                    <a href="#featured-work">Work</a>
+                    <a href="#about-me">About</a>
+                    <a href="#email">Contact</a>
                 </div>
                 <div className="right">
                     <a href="">Twitter</a>
