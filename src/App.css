@@ -56,6 +56,7 @@
 .intro {
     margin-top: 0;
     min-height: 80vh;
+    margin-bottom: 5em;
 }
 
 .intro-para {
@@ -137,9 +138,10 @@
 
 .image {
     margin-top: 10em;
-    height: 74%;
+    min-height: 74%;
     overflow-y: hidden;
     padding-inline: 0;
+    margin-bottom: 5em;
 }
 
 /* Experience  */
@@ -166,6 +168,7 @@
     display: flex;
     margin-top: 13em;
     gap: 5%;
+    margin-bottom: 5em;
 }
 
 .services-section > * {
