@@ -8,19 +8,21 @@
     padding: 0%;
     margin: 0%;
 }
+
 .container {
     /* width: 85%; */
     display: grid;
     grid-template-columns: [full-width-start] 7vw [content-start] 1fr [content-end] 7vw [full-width-end];
 }
 
-.container > * {
+.container>* {
     grid-column: content;
 }
 
-.container > .full-width {
+.container>.full-width {
     grid-column: full-width;
 }
+
 /* nav section  */
 
 .navbar {
@@ -31,6 +33,7 @@
     gap: 2em;
     padding-top: 1.5em;
 }
+
 .navbar a {
     transition: all 0.3s;
     position: relative;
@@ -83,7 +86,7 @@
     columns: 2;
 }
 
-.cards-container > * {
+.cards-container>* {
     break-inside: avoid;
 }
 
@@ -127,6 +130,7 @@
     padding-top: 1em;
     font-size: 1.5rem;
 }
+
 .about-me-paras {
     max-width: 40%;
 }
@@ -150,11 +154,11 @@
     display: flex;
 }
 
-.experience-section > h2 {
+.experience-section>h2 {
     width: 50%;
 }
 
-.experience-section > div {
+.experience-section>div {
     width: 50%;
 }
 
@@ -171,11 +175,11 @@
     margin-bottom: 5em;
 }
 
-.services-section > * {
+.services-section>* {
     width: 50%;
 }
 
-.services-section > div:first-child {
+.services-section>div:first-child {
     width: 45%;
 }
 
